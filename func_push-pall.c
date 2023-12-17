@@ -52,7 +52,7 @@ void pall(stack_t **stack, unsigned int line_number)
  * main - main function
  * Return: Nothing
 */
-int main()
+int main(void)
 {
 	stack_t *stack = NULL;
 
