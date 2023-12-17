@@ -38,19 +38,22 @@ typedef struct instruction_s
         void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
-<<<<<<< HEAD
-
 void push(stack_t **stack, unsigned int line_number);
 void pall(stack_t **stack, unsigned int line_number);
-
-=======
-void push(stack_t **stack, unsigned int line_number);
-void pall(stack_t **stack, unsigned int line_number);
-<<<<<<< HEAD
->>>>>>> 17e408b0667f0b59fca8432988bcc4abfdc3bd0d
-=======
 void execute(stack_t **stack);
 void execute_command(char *command, stack_t **stack, unsigned int line_number);
->>>>>>> da32d423f77f2ba53768abb7075e4763312bb55d
+void pint(stack_t **stack, unsigned int line_number);
+void pop(stack_t **stack, unsigned int line_number);
+void swap(stack_t **stack, unsigned int line_number);
+void add(stack_t **stack, unsigned int line_number);
+void nop(stack_t **stack, unsigned int line_number);
+void sub(stack_t **stack, unsigned int line_number);
+void div(stack_t **stack, unsigned int line_number);
+void mul(stack_t **stack, unsigned int line_number);
+
+
+
+
+
 
 #endif
